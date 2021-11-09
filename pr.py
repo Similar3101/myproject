@@ -9,7 +9,7 @@ if '  ' not in tel:
     tel = [a for a in tel if a not in ['(', ')', ' ', '-']]
     if tel[0] == '8':
         tel[0] = '+7'
-    print(''.join(tel))
+    print(''.join(tel)) #я могу даже так работать аааааааааааааааааааааааааааааааааааааааааааааааааааааа
 if '--' not in tel:
     tel = [a for a in tel if a not in ['(', ')', ' ', '-']]
     if tel[0] == '8':
